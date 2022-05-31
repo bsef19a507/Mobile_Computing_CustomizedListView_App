@@ -7,5 +7,11 @@ public class Student {
     public String degree;
     public int imageID;
 
-    
+    public Student(String name, String studentId, String section, String degree, int imageID) {
+        this.name = name;
+        this.studentId = studentId;
+        this.section = section;
+        this.degree = degree;
+        this.imageID = imageID;
+    }
 }
