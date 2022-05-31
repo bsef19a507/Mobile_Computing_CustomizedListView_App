@@ -25,54 +25,5 @@ public class MyListView extends ArrayAdapter {
         this.student_degree = student_degree;
         this.imgid = imgid;
     }
-
-    public MyListView(@NonNull Context context, int resource, int textViewResourceId, Activity context1, String[] student_name, String[] student_id, String[] student_section, String[] student_degree, Integer[] imgid) {
-        super(context, resource, textViewResourceId);
-        this.context = context1;
-        this.student_name = student_name;
-        this.student_id = student_id;
-        this.student_section = student_section;
-        this.student_degree = student_degree;
-        this.imgid = imgid;
-    }
-
-    public MyListView(@NonNull Context context, int resource, @NonNull Object[] objects, Activity context1, String[] student_name, String[] student_id, String[] student_section, String[] student_degree, Integer[] imgid) {
-        super(context, resource, objects);
-        this.context = context1;
-        this.student_name = student_name;
-        this.student_id = student_id;
-        this.student_section = student_section;
-        this.student_degree = student_degree;
-        this.imgid = imgid;
-    }
-
-    public MyListView(@NonNull Context context, int resource, int textViewResourceId, @NonNull Object[] objects, Activity context1, String[] student_name, String[] student_id, String[] student_section, String[] student_degree, Integer[] imgid) {
-        super(context, resource, textViewResourceId, objects);
-        this.context = context1;
-        this.student_name = student_name;
-        this.student_id = student_id;
-        this.student_section = student_section;
-        this.student_degree = student_degree;
-        this.imgid = imgid;
-    }
-
-    public MyListView(@NonNull Context context, int resource, @NonNull List objects, Activity context1, String[] student_name, String[] student_id, String[] student_section, String[] student_degree, Integer[] imgid) {
-        super(context, resource, objects);
-        this.context = context1;
-        this.student_name = student_name;
-        this.student_id = student_id;
-        this.student_section = student_section;
-        this.student_degree = student_degree;
-        this.imgid = imgid;
-    }
-
-    public MyListView(@NonNull Context context, int resource, int textViewResourceId, @NonNull List objects, Activity context1, String[] student_name, String[] student_id, String[] student_section, String[] student_degree, Integer[] imgid) {
-        super(context, resource, textViewResourceId, objects);
-        this.context = context1;
-        this.student_name = student_name;
-        this.student_id = student_id;
-        this.student_section = student_section;
-        this.student_degree = student_degree;
-        this.imgid = imgid;
-    }
+    
 }
