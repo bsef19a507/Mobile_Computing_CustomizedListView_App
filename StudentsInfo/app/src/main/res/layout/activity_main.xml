@@ -17,9 +17,10 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="192dp"
-            android:layout_height="148dp"
+            android:layout_height="0dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/img" />
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/a" />
 
 
     </LinearLayout>
@@ -35,9 +36,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="LAL CHAND"
+            android:text="@string/lal_chand"
             android:textColor="#fff"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -45,9 +46,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="BSEF19A507"
+            android:text="@string/bsef19a507"
             android:textColor="#fff"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -55,9 +56,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="Afternoon"
+            android:text="@string/afternoon"
             android:textColor="#fff"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -65,9 +66,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:text="BSSE"
+            android:text="@string/bsse"
             android:textColor="#fff"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
 
