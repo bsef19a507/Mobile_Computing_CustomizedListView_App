@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ArrayList<Student> studentArrayList = new ArrayList<Student>();
-        studentArrayList.add(new Student("Ali", "Alpha", "1", R.drawable.a1));
-        studentArrayList.add(new Student("Saad", "Beta", "2", R.drawable.a2));
-        studentArrayList.add(new Student("Aila", "Alpha", "5", R.drawable.a5));
-        studentArrayList.add(new Student("Aiman", "Beta", "6", R.drawable.a2));
+        studentArrayList.add(new Student("Ali", "001", "A","SE", R.drawable.a));
+        studentArrayList.add(new Student("Saad", "002", "M", "IT",R.drawable.b));
+        studentArrayList.add(new Student("Aila", "003", "A", "CS",R.drawable.c));
+        studentArrayList.add(new Student("David", "004", "M","DS", R.drawable.d));
         MyViewAdapter adapter = new MyViewAdapter(this, studentArrayList);
         ListView listView = findViewById(R.id.listView);
         listView.setAdapter(adapter);
