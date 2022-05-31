@@ -31,7 +31,7 @@ public class MyListView extends ArrayAdapter {
         this.imgid = imgid;
     }
 
-   
+
     public View getView(int position, View view, ViewGroup parent) {
         LayoutInflater inflater=context.getLayoutInflater();
         View singleEntityView=inflater.inflate( R.layout.activity_main, null,true);
