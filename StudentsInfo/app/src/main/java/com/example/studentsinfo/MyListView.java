@@ -1,4 +1,7 @@
 package com.example.studentsinfo;
 
-public class MyListView {
+import android.widget.ArrayAdapter;
+
+public class MyListView extends ArrayAdapter {
+    
 }
