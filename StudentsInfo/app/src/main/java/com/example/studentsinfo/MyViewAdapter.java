@@ -27,14 +27,18 @@ public class MyViewAdapter extends ArrayAdapter<Student> {
         convertView = LayoutInflater.from(getContext()).
 
                 inflate(R.layout.student_view, parent, false);
-        TextView textViewName = convertView.findViewById(R.id.textViewName);
-        TextView textViewCampus = convertView.findViewById(R.id.textViewCampus);
-        TextView textViewId = convertView.findViewById(R.id.textViewID);
+        TextView textViewName = convertView.findViewById(R.id.studentName);
+        TextView textViewID = convertView.findViewById(R.id.studentID);
+        TextView textViewSection = convertView.findViewById(R.id.studentSection);
+        TextView textViewDegree = convertView.findViewById(R.id.studentDegree);
         ImageView imageView = convertView.findViewById(R.id.imageView);
-        textViewName.setText(student.name);
-        textViewCampus.setText(student.campus);
-        textViewId.setText(student.rollNumber);
-        imageView.setImageResource(student.imageID);
+
+        textViewName.setText(student.getName());
+        textViewID.setText(student.getStudentId());
+        textViewSection.setText(student.getSection());
+        textViewDegree.setText(student.getDegree());
+        imageView.setImageResource(student.getImageID());
+
         return convertView;
     }
 }
