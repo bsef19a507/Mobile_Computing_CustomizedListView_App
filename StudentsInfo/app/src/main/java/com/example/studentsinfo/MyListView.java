@@ -25,5 +25,5 @@ public class MyListView extends ArrayAdapter {
         this.student_degree = student_degree;
         this.imgid = imgid;
     }
-    
+    sdfsa
 }
