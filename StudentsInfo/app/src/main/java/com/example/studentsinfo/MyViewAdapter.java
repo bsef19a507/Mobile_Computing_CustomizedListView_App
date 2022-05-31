@@ -24,9 +24,7 @@ public class MyViewAdapter extends ArrayAdapter<Student> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         Student student = getItem(position);
-        convertView = LayoutInflater.from(getContext()).
-
-                inflate(R.layout.student_view, parent, false);
+        convertView = LayoutInflater.from(getContext()).inflate(R.layout.student_view, parent, false);
         TextView textViewName = convertView.findViewById(R.id.studentName);
         TextView textViewID = convertView.findViewById(R.id.studentID);
         TextView textViewSection = convertView.findViewById(R.id.studentSection);

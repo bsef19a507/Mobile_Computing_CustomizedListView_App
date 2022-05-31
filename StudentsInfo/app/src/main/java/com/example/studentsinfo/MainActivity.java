@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ArrayList<Student> studentArrayList = new ArrayList<Student>();
+        ArrayList<Student> studentArrayList = new ArrayList<>();
         studentArrayList.add(new Student("Ali", "001", "A","SE", R.drawable.a));
         studentArrayList.add(new Student("Saad", "002", "M", "IT",R.drawable.b));
         studentArrayList.add(new Student("Aila", "003", "A", "CS",R.drawable.c));
