@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="20dp"
     android:background="#255bbb"
     tools:context=".MainActivity">
 
@@ -12,12 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:layout_marginTop="30dp">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="192dp"
-            android:layout_height="0dp"
+            android:layout_height="178dp"
             android:layout_weight="1"
             android:contentDescription="@string/todo"
             app:srcCompat="@drawable/a" />
@@ -29,7 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="197dp"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="10dp"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:id="@+id/studentName"
