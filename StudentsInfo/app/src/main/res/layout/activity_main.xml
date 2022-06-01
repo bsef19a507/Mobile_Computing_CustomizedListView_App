@@ -17,7 +17,7 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="192dp"
-            android:layout_height="0dp"
+            android:layout_height="190dp"
             android:layout_weight="1"
             android:contentDescription="@string/todo"
             app:srcCompat="@drawable/a" />
