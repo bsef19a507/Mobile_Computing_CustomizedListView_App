@@ -51,7 +51,7 @@ public class Student {
         return imageID;
     }
 
-    public void setImageID(int imageID) {
-        this.imageID = imageID;
-    }
+//    public void setImageID(int imageID) {
+//        this.imageID = imageID;
+//    }
 }
