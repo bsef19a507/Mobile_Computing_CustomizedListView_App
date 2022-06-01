@@ -35,9 +35,9 @@ public class Student {
         return section;
     }
 
-    public void setSection(String section) {
-        this.section = section;
-    }
+//    public void setSection(String section) {
+//        this.section = section;
+//    }
 
     public String getDegree() {
         return degree;
