@@ -5,29 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#255bbb"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="346dp"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="196dp"
+            android:layout_height="188dp"
+            android:layout_gravity="center"
             android:layout_weight="1"
             android:contentDescription="@string/todo"
-            app:srcCompat="@drawable/a"
-            android:padding="20dp"/>
+            android:padding="20dp"
+            app:srcCompat="@drawable/a" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="199dp"
         android:layout_height="356dp"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
