@@ -43,9 +43,9 @@ public class Student {
         return degree;
     }
 
-    public void setDegree(String degree) {
-        this.degree = degree;
-    }
+//    public void setDegree(String degree) {
+//        this.degree = degree;
+//    }
 
     public int getImageID() {
         return imageID;
